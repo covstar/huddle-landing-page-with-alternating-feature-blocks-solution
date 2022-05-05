@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "poppins";
+}
+
+/* header section */
+header{
+    padding: 4rem;
+    background-image: url("images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.logo{
+    display: flex;
+    padding-bottom: 4rem;
+}
+.try_it{
+    margin-left: auto;
+}
+.try_it button{
+    border-radius: 30rem;
+    padding: .8rem 3.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    border: none;
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+    box-shadow: 1px 1px 7px hsl(191, 37%, 88%);
+}
+
+button:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.headings{
+    display: flex;
+}
+
+.heading-text{
+    padding: 3rem 11rem 3rem 0;
+}
+
+.heading-text h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 550;
+    color: hsl(192, 100%, 9%);
+}
+.heading-text p{
+    padding: 1.5rem 0 2rem;
+    font-size: 1rem;
+    color: hsl(192, 100%, 9%);
+}
+.heading-text button{
+    border-radius: 30rem;
+    padding: 1rem 3.5rem;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 1px 1px 5px hsl(191, 18%, 64%);
+}
+
+.mockups img{
+    width: 45rem;
+}
+
+
+/* Main section */
+
+main{
+    padding: 9rem 6rem;
+}
+
+.container{
+    background-color: white;
+    border-radius: .8rem;
+    box-shadow: 1px 1px 7px hsl(191, 27%, 80%);
+    display: flex;
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    
+}
+.container img{
+    width: 25rem;
+}
+.container h2{
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+}
+.container p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+    color: hsl(208, 11%, 55%);
+}
+.first-container{
+    padding: 6rem 13rem 0 5rem;
+}
+.second-container{
+    padding: 6rem 5rem 0 13rem;
+}
+
+/* Footer */
+ footer{
+     background-color: hsl(192, 100%, 9%);
+     position: relative;
+     margin-top: 10rem;
+     padding: 12rem 7rem 4rem;
+     color: hsl(193, 100%, 96%);
+ }
+
+ /* Buil community */
+.build-your-community{
+    background-color: white;
+    border-radius: 1.2rem;
+    box-shadow: 1px 1px 4px hsl(0, 0%, 68%);
+    padding: 4rem 3rem;
+    position: absolute;
+    text-align: center;
+    top: -10rem;
+    left: 25%;
+    right: 25%;
+}
+.build-your-community h1{
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+.build-your-community button{
+    border-radius: 30rem;
+    padding: 1.3rem 5rem;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 1px 1px 5px hsl(191, 18%, 64%);
+}
+
+footer img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    padding-left: 6rem;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: 2rem;
+}
+ul{
+    list-style: none;
+}
+
+/* left section */
+.left-text li{
+    padding-left: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+.contacts{
+    display: flex;
+    line-height: 2;
+}
+i{
+    padding-right: 1rem;
+}
+.left-text a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Middle Section */
+.middle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "ab cr"
+        "w b"
+        "fa cu";
+    column-gap: 7rem;
+    row-gap: 1.5rem;
+
+}
+.middle li:nth-child(1){
+    grid-area: ab;
+}
+.middle li:nth-child(2) {
+    grid-area: w;
+}
+.middle li:nth-child(3) {
+    grid-area: fa;
+}
+.middle li:nth-child(4) {
+    grid-area: cr;
+}
+.middle li:nth-child(5) {
+    grid-area: b;
+}
+.middle li:nth-child(6) {
+    grid-area: cu;
+}
+
+.middle a{
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+.middle a:hover{
+    text-decoration: underline;
+}
+
+/* Social icons */
+.socials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.socials li{
+    font-size: 2rem;
+}
+.socials a{
+    color: hsl(193, 100%, 96%);
+}
+.socials a:hover{
+    color: hsl(322, 100%, 66%);
+}
+/* copyright */
+.copyright p{
+    margin-left: auto;
+    text-align: right;
+}
+
+/* footer Attribution */
+.attribution {
+    text-align: center;
+    padding: 4rem 0 0;
+    color: hotpink;
+    font-size: 1.2rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+
+.attribution a:hover {
+    color: hsl(171, 66%, 44%);
+}
